@@ -1,2 +1,2 @@
-# DL_PDP_attempt_2
-Personal dataset project for MATH-144.
+# Wikipedia Size by Language Edition
+
