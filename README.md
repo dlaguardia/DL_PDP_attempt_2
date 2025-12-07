@@ -17,6 +17,9 @@ https://web.archive.org/web/20251203040139/https://meta.wikimedia.org/wiki/List_
 ![no cebuano wiki heatmap blank](https://github.com/dlaguardia/MATH_144_PDP_DL/blob/main/nocebwiki_correlation_tiles_wo_values.png)
 ![no cebuano wiki labeled](https://github.com/dlaguardia/MATH_144_PDP_DL/blob/main/nocebwiki_correlation_tiles_w_values.png)
 ### Regression and Model Predictions
+```
+lm(formula = Articles ~ METRIC, data = labeledscatterdata)
+```
 ![model](https://github.com/dlaguardia/MATH_144_PDP_DL/blob/main/articles_scatterplots_cebanalysis.png)
 
 |   |All.pages|Edits|Admins|Users|Active.users|Files|
