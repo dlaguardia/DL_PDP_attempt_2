@@ -3,6 +3,8 @@
 ## Introduction
 ## Data Source and Processing
 https://meta.wikimedia.org/wiki/List_of_Wikipedias#All_Wikipedias_ordered_by_number_of_articles
+
+![snapshot](https://github.com/dlaguardia/MATH_144_PDP_DL/blob/main/wikicapture.png)
 https://web.archive.org/web/20251203040139/https://meta.wikimedia.org/wiki/List_of_Wikipedias
 ## Exploratory Analysis
 ### Scatterplot Matrix (ggpairs)
