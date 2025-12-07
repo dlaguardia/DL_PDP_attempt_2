@@ -31,6 +31,7 @@ At this point, all that remained was the "Language" column and the relevant nume
 ## Exploratory Analysis
 ### Scatterplot Matrix (ggpairs)
 The visualization below shows a basic scatterplot for every possible pair of variables in our data, as well as the Pearson correlation coefficient measuring the linear correlation between the two variables that make up each of those pairs.   
+
 ![scatterplot matrix](https://github.com/dlaguardia/MATH_144_PDP_DL/blob/main/scatterplot_matrix.png)  
 Each pair appears to have a very strong positive correlation, which makes sense. A wiki that is larger in one respect will tend to also be larger in all others.  
 
