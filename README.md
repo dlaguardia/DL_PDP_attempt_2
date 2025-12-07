@@ -13,10 +13,12 @@ I found this data on the [Wikimedia Meta-Wiki](https://meta.wikimedia.org/wiki/M
   - users who have made an edit in the last thirty days
 - count of locally uploaded files
 - editing depth
-  - "...one of several possible rough indicators of the encyclopedia's collaborative quality" — see [this page](https://meta.wikimedia.org/wiki/Wikipedia_article_depth) for info. on how it is calculated
+  - "...one of several possible rough indicators of the encyclopedia's collaborative quality" — see [this page](https://meta.wikimedia.org/wiki/Wikipedia_article_depth) for info. on how it is calculated  
 
 ![snapshot](https://github.com/dlaguardia/MATH_144_PDP_DL/blob/main/wikicapture.png)
-As this table is updated [nine times per day](https://commons.wikimedia.org/wiki/Data:Wikipedia_statistics/data.tab), I used the Internet Archive's Wayback Machine to create a snapshot of the table as it was when I downloaded it, which can be found [here](https://web.archive.org/web/20251203040139/https://meta.wikimedia.org/wiki/List_of_Wikipedias).
+As this table is updated [nine times per day](https://commons.wikimedia.org/wiki/Data:Wikipedia_statistics/data.tab), I used the Internet Archive's Wayback Machine to create a snapshot of the table as it was when I downloaded it, which can be found [here](https://web.archive.org/web/20251203040139/https://meta.wikimedia.org/wiki/List_of_Wikipedias).  
+
+As stated, I then downloaded this table by exporting it as an .xlsx file. At that point, I converted it to a .csv file, because although RStudio could read both, I prefer the latter.
 
 ## Exploratory Analysis
 ### Scatterplot Matrix (ggpairs)
