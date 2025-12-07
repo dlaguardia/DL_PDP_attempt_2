@@ -17,7 +17,8 @@ I found my data for this project on the [Wikimedia Meta-Wiki](https://meta.wikim
 - editing depth
   - "...one of several possible rough indicators of the encyclopedia's collaborative quality" — see [this page](https://meta.wikimedia.org/wiki/Wikipedia_article_depth) for info. on how it is calculated  
 
-![snapshot](https://github.com/dlaguardia/MATH_144_PDP_DL/blob/main/wikicapture.png)
+![snapshot](https://github.com/dlaguardia/MATH_144_PDP_DL/blob/main/wikicapture.png)  
+
 Since this table is updated [nine times per day](https://commons.wikimedia.org/wiki/Data:Wikipedia_statistics/data.tab), I used the Internet Archive's Wayback Machine to create a snapshot of the table as it was when I downloaded it, which can be found [here](https://web.archive.org/web/20251203040139/https://meta.wikimedia.org/wiki/List_of_Wikipedias).  
 
 As stated, I then downloaded this table by exporting it as an .[xlsx](https://github.com/dlaguardia/MATH_144_PDP_DL/blob/main/wikipedia_statistics_excel.xlsx) file. At that point, I converted it to a .[csv](https://github.com/dlaguardia/MATH_144_PDP_DL/blob/main/wikipedia_statistics_csv.csv) file, because although RStudio could read both, I prefer the latter. (It's also able to be viewed on GitHub, which is convenient.) To make it workable, I removed:
@@ -33,6 +34,7 @@ At this point, all that remained was the "Language" column and the relevant nume
 The visualization below shows a basic scatterplot for every possible pair of variables in our data, as well as the Pearson correlation coefficient measuring the linear correlation between the two variables that make up each of those pairs.   
 
 ![scatterplot matrix](https://github.com/dlaguardia/MATH_144_PDP_DL/blob/main/scatterplot_matrix.png)  
+
 Each pair appears to have a very strong positive correlation, which makes sense. A wiki that is larger in one respect will tend to also be larger in all others.  
 
 Additionally, each scatterplot shows one point which appears to have high leverage, but lower influence. This point always corresponds to the English version of Wikipedia. Considering the fact that [nearly half of all web content](https://www.statista.com/statistics/262946/most-common-languages-on-the-internet/?srsltid=AfmBOoozXpPAKVyVbBlqITNw3puRWJ7t3Ke4WGX4FH-w2HDzYae7PPle) uses English as of October 2025, English Wikipedia being much larger than the site's other editions is not surprising.
