@@ -19,6 +19,7 @@ https://web.archive.org/web/20251203040139/https://meta.wikimedia.org/wiki/List_
 ### Regression and Model Predictions
 ```
 lm(formula = Articles ~ METRIC, data = labeledscatterdata)
+predict(MODEL, data.frame(METRIC=c(ACTUAL)))
 ```
 ![model](https://github.com/dlaguardia/MATH_144_PDP_DL/blob/main/articles_scatterplots_cebanalysis.png)
 
