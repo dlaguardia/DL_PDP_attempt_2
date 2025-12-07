@@ -23,6 +23,7 @@ As stated, I then downloaded this table by exporting it as an .[xlsx](https://gi
 - the "Language (local)" column (as it was redundant)
 - the "Wiki" column (unnecessary for analysis)
 - the "Depth" column (I would look into this if I had more time, but for now I'm leaving that for the Meta-Wiki)
+At this point, all that remained was the "Language" column and the relevant numerical data.
 
 ## Exploratory Analysis
 ### Scatterplot Matrix (ggpairs)
