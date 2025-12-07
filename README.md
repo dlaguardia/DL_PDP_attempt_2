@@ -2,7 +2,7 @@
 
 ## Introduction
 ## Data Source and Processing
-I found this data on the [Wikimedia Meta-Wiki](https://meta.wikimedia.org/wiki/List_of_Wikipedias#All_Wikipedias_ordered_by_number_of_articles), which is... well, their wiki about their wikis. Their "List of Wikipedias" page contains a table called "All Wikipedias ordered by number of articles," which is, in part, exactly what it sounds like, but also contains several other metrics by which you can judge the 'size' of a version of Wikipedia: 
+I found this data on the [Wikimedia Meta-Wiki](https://meta.wikimedia.org/wiki/Main_Page), which is... well, their wiki about their wikis. Their "[List of Wikipedias](https://meta.wikimedia.org/wiki/List_of_Wikipedias)" page contains a table called "[All Wikipedias ordered by number of articles](https://meta.wikimedia.org/wiki/List_of_Wikipedias#All_Wikipedias_ordered_by_number_of_articles)," which is, in part, exactly what it sounds like, but also contains several other metrics by which you can judge the 'size' of a version of Wikipedia: 
 - count of articles
 - count of all pages
   - includes non-articles, like discussion pages
