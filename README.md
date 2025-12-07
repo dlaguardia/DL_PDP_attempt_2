@@ -18,7 +18,7 @@ I found this data on the [Wikimedia Meta-Wiki](https://meta.wikimedia.org/wiki/M
 ![snapshot](https://github.com/dlaguardia/MATH_144_PDP_DL/blob/main/wikicapture.png)
 As this table is updated [nine times per day](https://commons.wikimedia.org/wiki/Data:Wikipedia_statistics/data.tab), I used the Internet Archive's Wayback Machine to create a snapshot of the table as it was when I downloaded it, which can be found [here](https://web.archive.org/web/20251203040139/https://meta.wikimedia.org/wiki/List_of_Wikipedias).  
 
-As stated, I then downloaded this table by exporting it as an .xlsx file. At that point, I converted it to a .csv file, because although RStudio could read both, I prefer the latter.
+As stated, I then downloaded this table by exporting it as an .[xlsx](https://github.com/dlaguardia/MATH_144_PDP_DL/blob/main/wikipedia_statistics_excel.xlsx) file. At that point, I converted it to a .[csv](https://github.com/dlaguardia/MATH_144_PDP_DL/blob/main/wikipedia_statistics_csv.csv) file, because although RStudio could read both, I prefer the latter. (It's also able to be viewed on GitHub, which is convenient.)
 
 ## Exploratory Analysis
 ### Scatterplot Matrix (ggpairs)
