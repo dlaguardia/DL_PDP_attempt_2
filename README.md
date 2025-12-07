@@ -24,7 +24,7 @@ As stated, I then downloaded this table by exporting it as an .[xlsx](https://gi
 - the "Wiki" column (unnecessary for analysis)
 - the "Depth" column (I would look into this if I had more time, but for now I'm leaving that for the Meta-Wiki)
 
-At this point, all that remained was the "Language" column and the relevant numerical data.
+At this point, all that remained was the "Language" column and the relevant numerical data. I've uploaded the transformed data [here](https://github.com/dlaguardia/MATH_144_PDP_DL/blob/main/wikipedia_statistics_clean.csv).
 
 ## Exploratory Analysis
 ### Scatterplot Matrix (ggpairs)
