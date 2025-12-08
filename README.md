@@ -96,4 +96,4 @@ So: why does this one version of Wikipedia contain such a disproportionately hig
 
 No, it's mostly just bots. 
 
-One bot, rather. Since 2012, [Lsjbot](https://en.wikipedia.org/wiki/Lsjbot), described on its own wiki page as "an automated Wikipedia article-creating program" originally developed for the Swedish edition, has been steadily producting Cebuano articles on "iving organisms and geographical entities" (though, as of 2020, it appears to have retired to simply doing maintenance). As of 2015, the program was responsible for [99 percent](https://en.wikipedia.org/wiki/Cebuano_Wikipedia) of articles on Cebuano Wikipedia.
+One bot, rather. Since 2012, [Lsjbot](https://en.wikipedia.org/wiki/Lsjbot), described on its own wiki page as "an automated Wikipedia article-creating program" originally developed for the Swedish edition, has been steadily producting Cebuano articles on "iving organisms and geographical entities" — though, now, it appears to have retired to simply doing maintenance. As of 2015, the program was responsible for [99 percent](https://en.wikipedia.org/wiki/Cebuano_Wikipedia) of articles on Cebuano Wikipedia.
