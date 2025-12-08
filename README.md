@@ -77,7 +77,7 @@ The correlation between article count and the rest of the measures is still not 
 At this point, I returned to the article pair scatterplots from above and created linear regression models for each. 
 
 ```
-lm(formula = Articles ~ OTHER_SIZE_METRIC, data = labeledscatterdata)  
+MODEL <- lm(formula = Articles ~ OTHER_SIZE_METRIC, data = labeledscatterdata)  
 ```
 I then used the observed data for the other size metrics to predict the Cebuano edition's article count according to the models.  
 
