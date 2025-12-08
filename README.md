@@ -70,18 +70,21 @@ Once again, this becomes even more evident when the tiles are labeled with the P
 
 ![no cebuano wiki labeled](https://github.com/dlaguardia/MATH_144_PDP_DL/blob/main/nocebwiki_correlation_tiles_w_values.png)  
 
-The correlation between article count and the rest of the measures is still not as strong as that between the rest of the measures and each other, but Cebuano Wikipedia's high article count had clear influence.  
+The correlation between article count and the rest of the measures is still not as strong as that between the rest of the measures and each other, but Cebuano Wikipedia's high article count had clear influence here.    
 
 ### Regression and Model Predictions
+
+At this point, I returned to the article pair scatterplots from above and created linear regression models for each. I then used the observed data for the other size metrics to predict the Cebuano edition's article count according to the models.  
+
 ```
-lm(formula = Articles ~ METRIC, data = labeledscatterdata)
-predict(MODEL, data.frame(METRIC=c(ACTUAL)))
+lm(formula = Articles ~ OTHER_SIZE_METRIC, data = labeledscatterdata)
+predict(MODEL, data.frame(OTHER_SIZE_METRIC=c(ACTUAL)))
 ```
 ![model](https://github.com/dlaguardia/MATH_144_PDP_DL/blob/main/articles_scatterplots_cebanalysis.png)
 
 |   |All.pages|Edits|Admins|Users|Active.users|Files|
 |---|---------|-----|------|-----|------------|-----|
 |Predicted|1650391|358997.2|161855.6|156380|144828.8|126026.1|
-|Observed|11230188|36794200|7|134536|192|3|
+|Observed|11230188|36794200|7|134536|192|3|  
 
 ## Conclusion
