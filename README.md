@@ -90,7 +90,7 @@ The points plotted slightly larger and in orange represent Cebuano Wikipedia, we
 
 ## Conclusion
 
-# Explanation
+### Explanation
 
 So: why does this one version of Wikipedia contain such a disproportionately high number of articles? Was this an error in the dataset?  
 
