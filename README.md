@@ -98,4 +98,6 @@ No, it's mostly just bots.
 
 One bot, rather. Since 2012, [Lsjbot](https://en.wikipedia.org/wiki/Lsjbot), described on its own wiki page as "an automated Wikipedia article-creating program" originally developed for the Swedish edition, has been steadily producting Cebuano articles on "living organisms and geographical entities," such as, apparently, rivers and dams — though it now appears to have retired to simply doing maintenance. As of 2015, the program was responsible for [99 percent](https://en.wikipedia.org/wiki/Cebuano_Wikipedia) of articles on Cebuano Wikipedia.
 
-### Final Thoughts
+### Final Thoughts  
+
+what else you would like to have done like pca and residuals and web traffic comparisons/that data needed, tile error, shortcomings, what you learned
