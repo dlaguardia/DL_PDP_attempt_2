@@ -1,4 +1,4 @@
-# Wikipedia Size by Language Edition
+<img width="97" height="30" alt="image" src="https://github.com/user-attachments/assets/e93c769e-1b52-4af5-abab-bd3cb8847689" /># Wikipedia Size by Language Edition
 
 ## Introduction
 In this project, I wanted to investigate how different language editions of Wikipedia compare to each other, particularly in how 'large' they are. Here, the idea of 'size' refers to several different measurements of an edition's userbase and amount of content. There are presently 342 active versions of Wikipedia, and 358 in total. I will not be using data for the 16 which have been closed.
@@ -37,9 +37,9 @@ The visualization below shows a basic scatterplot for every possible pair of var
 
 Each pair appears to have a very strong positive correlation, which makes sense. A wiki that is larger in one respect will tend to also be larger in all others.  
 
-Additionally, each scatterplot shows one point which appears to have high leverage, but lower influence. This point always corresponds to the English version of Wikipedia. Considering the fact that [nearly half of all web content](https://www.statista.com/statistics/262946/most-common-languages-on-the-internet/?srsltid=AfmBOoozXpPAKVyVbBlqITNw3puRWJ7t3Ke4WGX4FH-w2HDzYae7PPle) uses English as of October 2025, English Wikipedia being much larger than the site's other editions is not surprising.  
+Additionally, each scatterplot shows one point with both an unusually high x-value and an unusually high y-value. This outlier always corresponds to the English version of Wikipedia. Considering the fact that [nearly half of all web content](https://www.statista.com/statistics/262946/most-common-languages-on-the-internet/?srsltid=AfmBOoozXpPAKVyVbBlqITNw3puRWJ7t3Ke4WGX4FH-w2HDzYae7PPle) uses English as of October 2025, English Wikipedia being much larger than the site's other editions is not surprising.  
 
-Interestingly, each scatterplot in which one variable in the pair was article count also shows one point which appears to have both high leverage and high influence. As may be expected, the article count pairs also have weaker correlations.  
+Interestingly, each scatterplot in which one variable in the pair was article count also shows one point which appears to only have an unusually high x-value. As may be expected, the article count pairs, being influenced by this second outlier, have weaker correlations.  
 
 ### Heatmap (geom_tile)
 
@@ -56,7 +56,10 @@ I've also created a version of the above heatmap that includes the actual correl
 
 To examine what might be going on here more clearly, I created a visualization that displays just the scatterplots for pairs in which one variable is article count. Obviously, this is more legible, and it allows us to see each point more clearly. (In the scatterplot matrix, some detail was sacrificed for the sake of displaying more information at once.)  
 
-![articles plots](https://github.com/dlaguardia/MATH_144_PDP_DL/blob/main/articles_only_scatterplots.png)
+![articles plots](https://github.com/dlaguardia/MATH_144_PDP_DL/blob/main/articles_only_scatterplots.png)  
+
+The outlier with an unusually high x-value, visible again here, may suggest that there is one Wikipedia with an article count far greater than expected from the size of its userbase and the amount of non-article content it contains. It turns out that this is true: Wikipedia in [Cebuano](https://en.wikipedia.org/wiki/Cebuano_language), an Austronesian language native to the Phillipines with an estimated 20 million speakers, contains 6115852 articles as of our snapshot. This is the second-highest article count for any edition.  
+
 ### Re-Analyzing Correlation
 ![no cebuano wiki heatmap blank](https://github.com/dlaguardia/MATH_144_PDP_DL/blob/main/nocebwiki_correlation_tiles_wo_values.png)
 ![no cebuano wiki labeled](https://github.com/dlaguardia/MATH_144_PDP_DL/blob/main/nocebwiki_correlation_tiles_w_values.png)
