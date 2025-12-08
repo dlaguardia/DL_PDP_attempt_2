@@ -74,10 +74,14 @@ The correlation between article count and the rest of the measures is still not 
 
 ### Regression and Model Predictions
 
-At this point, I returned to the article pair scatterplots from above and created linear regression models for each. I then used the observed data for the other size metrics to predict the Cebuano edition's article count according to the models.  
+At this point, I returned to the article pair scatterplots from above and created linear regression models for each. 
 
 ```
-lm(formula = Articles ~ OTHER_SIZE_METRIC, data = labeledscatterdata)
+lm(formula = Articles ~ OTHER_SIZE_METRIC, data = labeledscatterdata)  
+```
+I then used the observed data for the other size metrics to predict the Cebuano edition's article count according to the models.  
+
+```
 predict(MODEL, data.frame(OTHER_SIZE_METRIC=c(ACTUAL)))
 ```
 ![model](https://github.com/dlaguardia/MATH_144_PDP_DL/blob/main/articles_scatterplots_cebanalysis.png)
