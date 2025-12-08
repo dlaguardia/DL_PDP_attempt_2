@@ -47,7 +47,7 @@ This is more clearly visualized using a correlation heatmap. Note the immediate 
 
 ![correlation heatmap blank](https://github.com/dlaguardia/MATH_144_PDP_DL/blob/main/correlation_tiles_wo_values.png)  
 
-I've also created a version of the above heatmap that includes the actual correlation coefficients that each tile's color is representing, as many are quite similar.  
+I've also created a version of the above heatmap that includes the actual correlation coefficients which each tile's color is representing, as many are quite similar.  
 
 ![correlation heatmap labeled](https://github.com/dlaguardia/MATH_144_PDP_DL/blob/main/correlation_tiles_w_values.png)  
 
