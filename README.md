@@ -84,6 +84,8 @@ I then used the observed data for the other size metrics to predict the Cebuano 
 ```
 predict(MODEL, data.frame(OTHER_SIZE_METRIC=c(ACTUAL)))
 ```
+The points plotted in orange represent Cebuano Wikipedia, were those predictions to be correct. Unsurprisingly again, it lands among other more 'niche' Wikipedia editions.  
+
 ![model](https://github.com/dlaguardia/MATH_144_PDP_DL/blob/main/articles_scatterplots_cebanalysis.png)
 
 |   |All.pages|Edits|Admins|Users|Active.users|Files|
