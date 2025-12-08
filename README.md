@@ -100,4 +100,4 @@ One bot, rather. Since 2012, [Lsjbot](https://en.wikipedia.org/wiki/Lsjbot), des
 
 ### Final Thoughts  
 
-what else you would like to have done like pca and residuals and web traffic comparisons/that data needed, tile error, shortcomings, what you learned
+The main things I learned here were practical — while the Wikipedia dataset is interesting, none of it, except for the Cebuano Wikipedia outlier, was particularly surprising or insightful to me. This was a chance to work with data overall, and to apply what we have learned in class to an actual project. Of course, I would have liked to apply more techniques from class than I did, but was limited by time. As we had seven relevant columns, I was at one point interested in using dimension reduction to create visualizations and potentially open new paths for further analysis, but this did not go particularly well. I do have some visualizations saved, but not uploaded here. I also found a second dataset early on in my project that had information on web traffic by language, which I wanted to compare to wiki size, but this overcomplicated things and distracted from other information.
