@@ -43,10 +43,14 @@ Interestingly, each scatterplot in which one variable in the pair was article co
 
 ### Heatmap (geom_tile)
 
-This is more clearly visualized using a correlation heatmap.  
+This is more clearly visualized using a correlation heatmap. 
 
-![correlation heatmap blank](https://github.com/dlaguardia/MATH_144_PDP_DL/blob/main/correlation_tiles_wo_values.png)
-![correlation heatmap labeled](https://github.com/dlaguardia/MATH_144_PDP_DL/blob/main/correlation_tiles_w_values.png)
+![correlation heatmap blank](https://github.com/dlaguardia/MATH_144_PDP_DL/blob/main/correlation_tiles_wo_values.png)  
+
+I've also created a version of the above heatmap that includes the actual correlation coefficients that each tile's color is representing, as many are quite similar.  
+
+![correlation heatmap labeled](https://github.com/dlaguardia/MATH_144_PDP_DL/blob/main/correlation_tiles_w_values.png)  
+
 ## Analysis: Articles
 ### Further Exploratory Analysis
 ![articles plots](https://github.com/dlaguardia/MATH_144_PDP_DL/blob/main/articles_scatterplots.png)
