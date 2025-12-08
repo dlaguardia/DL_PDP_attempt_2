@@ -42,6 +42,9 @@ Additionally, each scatterplot shows one point which appears to have high levera
 Interestingly, each scatterplot in which one variable in the pair was article count also shows one point which appears to have both high leverage and high influence. As may be expected, the article count pairs also have weaker correlations.  
 
 ### Heatmap (geom_tile)
+
+This is more clearly visualized using a correlation heatmap.  
+
 ![correlation heatmap blank](https://github.com/dlaguardia/MATH_144_PDP_DL/blob/main/correlation_tiles_wo_values.png)
 ![correlation heatmap labeled](https://github.com/dlaguardia/MATH_144_PDP_DL/blob/main/correlation_tiles_w_values.png)
 ## Analysis: Articles
